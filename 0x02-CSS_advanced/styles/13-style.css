@@ -11,14 +11,6 @@ a:link[href] {
     text-decoration: none;
 }
 
-body {
-    line-height: var(--line-height-base);
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-}
-
 a:visited {
     font-style: italic;
 }
@@ -29,6 +21,14 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
+}
+
+body {
+    line-height: var(--line-height-base);
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
 }
 
 .visually-hidden {
