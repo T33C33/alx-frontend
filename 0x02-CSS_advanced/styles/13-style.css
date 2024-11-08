@@ -4,7 +4,7 @@ html {
 }
 
 body,
-a[href] {
+a:link[href] {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -15,7 +15,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href] {
+a:link[href] {
     text-decoration: none;
 }
 
