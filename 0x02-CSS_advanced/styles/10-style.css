@@ -24,7 +24,7 @@ a {
 }
 
 .section-header {
-    align-items: var(--section-header-align);
+    align-content: var(--section-header-align);
 }
 
 .card-category,
