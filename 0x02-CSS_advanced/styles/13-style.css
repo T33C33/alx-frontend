@@ -3,20 +3,20 @@ html {
     font-size: 62.5%;
 }
 
-body,
 a:link[href] {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
+    text-decoration: none;
 }
 
 body {
     line-height: var(--line-height-base);
-}
-
-a:link[href] {
-    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
 }
 
 a:visited {
