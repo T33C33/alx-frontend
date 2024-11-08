@@ -3,32 +3,20 @@ html {
     font-size: 62.5%;
 }
 
-a:link [href] {
+body,
+a {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    text-decoration: none;
-}
-
-a:visited {
-    font-style: italic;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    background-color: var(--color-light-grey);
 }
 
 body {
     line-height: var(--line-height-base);
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
+}
+
+a:link[href] {
+    text-decoration: none;
 }
 
 .visually-hidden {
