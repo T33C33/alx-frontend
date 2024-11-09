@@ -578,13 +578,15 @@ ul.row {
     background-color: var(--color-black);
 }
 
-.social-link {
+.social-link,
+.social-link>svg {
     display: block;
-}
-
-.social-link svg {
     fill: var(--text-color);
 }
+
+/*.social-link>svg {
+    fill: var(--text-color);
+}*/
 
 .footer {
     padding: var(--footer-padding);
