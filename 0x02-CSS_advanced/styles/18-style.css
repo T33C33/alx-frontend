@@ -534,7 +534,7 @@ h6 {
 
 .nav .nav-link {
     display: block;
-    padding: calc(1em * 0.5) 1em;
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
