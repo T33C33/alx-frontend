@@ -567,11 +567,6 @@ ul.row {
     clear: both;
 }
 
-[class^="col"] {
-    float: left;
-    padding: 0.5rem;
-}
-
 .footer {
     padding: var(--footer-padding);
 }
@@ -584,4 +579,9 @@ ul.row {
 
 .footer ul {
     text-align: right;
+}
+
+[class^="col"] {
+    float: left;
+    padding: 0.5rem;
 }
