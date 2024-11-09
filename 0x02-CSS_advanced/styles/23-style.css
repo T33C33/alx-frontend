@@ -578,9 +578,11 @@ ul.row {
     background-color: var(--color-black);
 }
 
-.social-link,
-.social-link>svg {
+.social-link {
     display: block;
+}
+
+.social-link>svg {
     fill: var(--text-color);
 }
 
