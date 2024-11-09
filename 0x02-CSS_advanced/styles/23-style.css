@@ -578,6 +578,14 @@ ul.row {
     background-color: var(--color-black);
 }
 
+.social-link {
+    display: block;
+}
+
+.social-link svg {
+    fill: var(--text-color);
+}
+
 .footer {
     padding: var(--footer-padding);
 }
@@ -594,12 +602,4 @@ ul.row {
 
 .footer-address {
     color: var(--text-color);
-}
-
-.social-link {
-    display: block;
-}
-
-.social-link>svg {
-    fill: var(--text-color);
 }
