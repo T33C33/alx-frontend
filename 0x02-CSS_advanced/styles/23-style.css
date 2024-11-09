@@ -586,10 +586,6 @@ ul.row {
     fill: var(--text-color);
 }
 
-/*.social-link>svg {
-    fill: var(--text-color);
-}*/
-
 .footer {
     padding: var(--footer-padding);
 }
