@@ -729,10 +729,10 @@ ul.row {
 .card-work .card-title a {
     display: block;
     text-decoration: none;
-    padding: 45%;
+    padding-top: 45%;
 }
 
-.card-title .card-work ::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
