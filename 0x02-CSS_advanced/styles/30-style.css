@@ -726,8 +726,7 @@ ul.row {
     position: relative;
 }
 
-.card-title a,
-.card-work a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding: 45%;
